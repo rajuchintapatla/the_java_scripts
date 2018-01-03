@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	// raju is accessible only inside the function.
+	function myfunction(){
+		var myvar = "raju";
+		console.log(myvar);
+	}
+	// vihar is outside the function .
+	myvar = 'vihar';
+	console.log(myvar);
+	myfunction();
+</script>
+</body>
+</html>
